@@ -1,0 +1,78 @@
+# Dependencies
+
+node_modules/
+
+.pnp
+
+.pnp.js
+
+/.next
+
+# Next.js
+
+.next/
+
+out/
+
+build/
+
+
+
+# Env (never commit secrets)
+
+
+
+.env
+.env.local
+.env.*
+!.env.example
+.env.development.local
+
+.env.test.local
+
+.env.production.local
+
+
+
+# Debug / OS
+
+npm-debug.log*
+
+yarn-debug.log*
+
+yarn-error.log*
+
+.DS_Store
+
+*.pem
+
+
+
+# Vercel
+
+.vercel
+
+
+
+# TypeScript
+
+*.tsbuildinfo
+
+
+
+# IDE
+
+.idea/
+
+
+
+
+# Testing
+
+coverage/
+
+temp_auto_push.bat
+
+temp_interactive_push.bat
+
+config.bat

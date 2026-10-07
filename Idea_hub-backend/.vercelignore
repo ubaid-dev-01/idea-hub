@@ -1,0 +1,6 @@
+# Prevents a second broken "index" serverless function (dist/index.js).
+# Vercel entry is api/index.ts only.
+dist/index.js
+dist/index.js.map
+dist/index.d.ts
+dist/index.d.ts.map
